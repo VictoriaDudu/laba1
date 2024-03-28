@@ -1,10 +1,10 @@
-#include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 int main()
 {
 const int N = 12;
-char vowel[N] = { 'a', 'e', 'i', 'o', 'u', 'y' };
+char vowel[N] = { 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y' };
 string str;
 cout << "Enter the string" << endl;
 getline(cin, str);
