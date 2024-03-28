@@ -6,7 +6,7 @@ int main()
 const int N = 12;
 char vowel[N] = { 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y' };
 string str;
-cout << "Enter the string" << endl;
+cout << "Enter the string" << endl;//введите строку
 getline(cin, str);
 int kolichestvo = 0;
 for (int i = 0; str[i]; i++)
